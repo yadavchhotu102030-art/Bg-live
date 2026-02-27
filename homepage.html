@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  top: 40%;
+  font-size: 24px;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop>
+  <source src="yourvideo.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <h1>Welcome</h1>
+</div>
+
+</body>
+</html>
